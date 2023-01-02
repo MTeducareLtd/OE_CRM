@@ -1,0 +1,725 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+}
+
+
+#divPasswordSendMessage
+{
+    position: absolute;
+    top: 437px;
+    left: 126px;
+}
+
+.diverror
+{
+    position: absolute;
+    top: 152px;
+    left: -9px;
+}
+
+.robololo {
+    position: absolute;
+    top: 55px;
+    left: 91px;
+}
+
+#a
+{
+    background-image: url("1440x900_logo-minDesktop.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.body
+{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background-image: url(pg);
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    z-index: 0;
+}
+
+.grad
+{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header
+{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 255px);
+    z-index: 2;
+}
+
+.header div
+{
+    float: left;
+    color: #fff;
+    font-family: 'Exo' , sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.header div span
+{
+    color: #5379fa !important;
+}
+
+.rblogin {
+    position: absolute;
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+    top: 500px;
+    left: 95px;
+}
+
+
+.rblogin input[type=text]
+{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-family: 'Exo' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+input[type=text]:focus
+{
+    box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+}
+
+
+.rblogin input[type=password]
+{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-family: 'Exo' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+    box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+input[type=password]:focus
+{
+    box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+}
+
+.rblogin input[type=button]
+{
+    width: 252px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Exo' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.rblogin input[type=button]:hover
+{
+    opacity: 0.8;
+    background-color:#ff3333;
+}
+
+.rblogin input[type=button]:active
+{
+    opacity: 0.6;
+    background-color:Red;
+}
+
+.rblogin input[type=text]:focus
+{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.rblogin input[type=password]:focus
+{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+.rblogin input[type=button]:focus
+{
+    outline: none;
+}
+
+::-webkit-input-placeholder
+{
+    color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder
+{
+    color: rgba(255,255,255,0.6);
+}
+
+
+
+@media only screen and (min-width:550px) and (max-width:650px) 
+{
+    #a
+    {
+        background-image: url("600x1024_logo-min.png") !important;
+        background-repeat: no-repeat;
+    }
+    
+    #divPasswordSendMessage
+    {
+        position: absolute;
+        top: 415px;
+        left: 167px;
+        height: auto;
+        width: 314px;
+    }
+    
+    .diverror
+    {
+        position: absolute;
+        top: 153px;
+        left: -9px;
+    }
+
+    .robololo {
+        top: 112px;
+        left: 159px;
+    }
+
+    .loginBth
+    {
+        width: 260px;
+        height: 35px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #a18d6c;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .rblogin {
+        position: absolute !important;
+        top: 576px;
+        left: 150px;
+        height: 150px !important;
+        width: 364px !important;
+        padding: 10px !important;
+        z-index: 2 !important;
+    }
+
+    
+
+    .rblogin input[type=text]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=text]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+    .rblogin input[type=password]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        margin-top: 10px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=password]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+    .rblogin input[type=button]
+    {
+        width: 250px;
+        height: 35px;
+        background: transparent;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: white;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .rblogin input[type=button]:hover
+    {
+        opacity: 0.8;
+        background-color:#ff3333;
+    }
+
+    .rblogin input[type=button]:active
+    {
+        opacity: 0.6;
+    }
+
+    .rblogin input[type=text]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=password]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=button]:focus
+    {
+        outline: none;
+    }
+
+}
+
+
+@media only screen and (min-width:300px) and (max-width:400px) /* Htc one A9 */
+{
+    .diverror
+    {
+        position: absolute;
+        top: 141px;
+        left: 1px;
+        width: 112%;
+    }
+    
+    #divPasswordSendMessage
+    {
+        position: absolute;
+        top: 249px;
+        left: 39px;
+        width: 253px;
+        height: auto;
+    }
+    
+    #a
+    {
+        background-image: url("360x640_logo-min.png") !important;
+        background-repeat: no-repeat;
+    }
+
+   .robololo {
+    position: absolute;
+    top: 55px;
+    left: 36px;
+}
+
+    .loginBth
+    {
+        width: 260px;
+        height: 35px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #a18d6c;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+
+    .rblogin {
+   position: absolute !important;
+    top: 370px;
+    left: 41px;
+    height: 140px !important;
+    width: 223px !important;
+    padding: 0px !important;
+    z-index: 1 !important;
+}
+
+    .rblogin input[type=text]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=text]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+
+    .rblogin input[type=password]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        margin-top: 10px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=password]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+    .rblogin input[type=button]
+    {
+        width: 250px;
+        height: 35px;
+        background: transparent;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: white;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .rblogin input[type=button]:hover
+    {
+        opacity: 0.8;
+        background-color:#ff3333;
+        
+    }
+    
+
+    .rblogin input[type=text]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=password]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=button]:focus
+    {
+        outline: none;
+    }
+}
+
+
+@media only screen and (min-width:390px) and (max-width:490px) /*Note5*/
+{
+    .diverror
+    {
+        position: absolute;
+        top: 142px;
+        left: 2px;
+    }
+    
+    #divPasswordSendMessage
+    {
+        position: absolute;
+        top: 249px;
+        left: 39px;
+        width: 253px;
+        height: auto;
+    }
+    
+    #a
+    {
+        background-image: url("412x732_logo-.png") !important;
+        background-repeat: no-repeat;
+    }
+
+   .robololo {
+    position: absolute;
+    top: 55px;
+    left: 36px;
+}
+
+    .loginBth
+    {
+        width: 260px;
+        height: 35px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #a18d6c;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+
+    .rblogin {
+        position: absolute !important;
+        top: 405px;
+        left: 67px;
+        height: 140px !important;
+        width: 250px !important;
+        padding: 0px !important;
+        z-index: 1 !important;
+    }
+
+    .rblogin input[type=text]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=text]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+
+    .rblogin input[type=password]
+    {
+        width: 250px;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px;
+        margin-top: 10px;
+        box-shadow: -7px 10px 0px -7px #ebebeb, 8px 11px 0px -8px #ebebeb;
+        -webkit-transition: box-shadow 0.3s;
+        transition: box-shadow 0.3s;
+    }
+
+    input[type=password]:focus
+    {
+        box-shadow: -7px 10px 0px -7px #4EA6EA, 8px 11px 0px -8px #4EA6EA;
+    }
+
+    .rblogin input[type=button]
+    {
+        width: 250px;
+        height: 35px;
+        background: transparent;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 2px;
+        color: white;
+        font-family: 'Exo' , sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+        margin-top: 10px;
+    }
+
+    .rblogin input[type=button]:hover
+    {
+        opacity: 0.8;
+        background-color:#ff3333;
+        
+    }
+    
+
+    .rblogin input[type=text]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=password]:focus
+    {
+        outline: none;
+        border: 1px solid rgba(255,255,255,0.9);
+    }
+
+    .rblogin input[type=button]:focus
+    {
+        outline: none;
+    }
+}
+
+
+/***
+Customized Bootstrap Modal 
+***/
+.modal {
+  z-index: 10050;
+  outline: none;
+  overflow-y: auto !important;
+  /* Fix content shifting to the right on modal open due to scrollbar closed */
+}
+.page-portlet-fullscreen .modal {
+  z-index: 10060;
+}
+.modal .modal-header {
+  border-bottom: 1px solid #EFEFEF;
+  color: crimson;
+}
+.modal .modal-header h3 {
+  font-weight: 300;
+  color: crimson;
+}
+.modal .modal-header .close {
+  margin-top: 0px !important;
+}
+.modal.draggable-modal .modal-header {
+  cursor: move;
+}
+.modal .modal-dialog {
+  z-index: 10051;
+}
+.modal > .loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+}
+.modal.in .page-loading {
+  display: none;
+}
+
+.modal-open {
+  overflow-y: auto !important;
+}
+
+.modal-open-noscroll {
+  overflow-y: hidden !important;
+}
+
+.modal-backdrop {
+  border: 0;
+  outline: none;
+  z-index: 10049;
+}
+.page-portlet-fullscreen .modal-backdrop {
+  z-index: 10059;
+}
+.modal-backdrop, .modal-backdrop.fade.in {
+  background-color: #333 !important;
+}
+
+/* Full width modal */
+.modal-full.modal-dialog {
+  width: 99%;
+}
+
+@media (max-width: 768px) {
+  .modal-full.modal-dialog {
+    width: auto;
+  }
+}

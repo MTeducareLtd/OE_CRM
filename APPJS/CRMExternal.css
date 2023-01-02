@@ -1,0 +1,633 @@
+﻿ /*EnterContact Page Start*/  
+   #txtUserName
+   {
+      width: 250px;
+   }
+   
+   #txtMobileNo
+   {
+      width: 250px;
+   }
+   
+   .btn-group bootstrap-select bs-select form-control
+   {
+       width: 215px !important;
+   }
+   
+   #txtFirstname
+   {
+       width:240px;
+   }
+      
+   #txtMiddleName
+   {
+        width:240px;
+   }  
+   
+   #txtLastName
+   {
+        width:240px;
+   }    
+   
+   #txtMonthYear
+   {
+       width:200px;
+   }
+   
+   #txtEmailId
+   {
+       width:240px;
+   }  
+   
+   #txtHandPhone1
+   {
+       width:240px;
+   }
+   
+   #txtAddress1
+   {
+        width:240px;
+   }  
+   
+   #txtAddress2
+   {
+       width:240px;
+   }  
+   
+   #txtStreet
+   {
+        width:240px;
+   }
+   /*EnterContact Page End*/ 
+   
+   /*Campaign Page Start*/ 
+   #txtCampMobileNo
+   {
+       width: 238px;
+   }
+   
+   #txtProbability
+   {
+       width: 240px;
+   }
+   
+   #txtInteractedWith
+   {
+       width: 240px;
+   }
+   
+   #txtFeedBack
+   {
+       width: 240px;
+   }
+   
+    /*Advance search div Start*/ 
+    /*#txtCampName
+    {
+        width: 235px;
+    }*/
+    #txtCampStudentName
+    {
+        width: 235px;
+    }
+    #txtContactNumber
+    {
+        width: 235px;
+    }
+    #txtXcenter
+    {
+        width: 235px;
+    }
+    #txtCampStudentUID
+    {
+        width: 235px;
+    }
+    
+    
+    @media only screen and (min-width:300px) and (max-width:400px) 
+    {
+       /*#txtCampName
+       {
+           width: 225px;
+       }*/
+       #txtCampStudentName
+       {
+           width: 225px;
+       }
+       #txtContactNumber
+       {
+           width: 225px;
+       }
+       #txtXcenter
+       {
+           width: 225px;
+       }
+       #txtCampStudentUID
+       {
+           width: 225px;
+       }
+    }
+    
+    @media only screen and (min-width:400px) and (max-width:500px) 
+    {
+       /*#txtCampName
+       {
+           width: 250px;
+       }*/
+       #txtCampStudentName
+       {
+           width: 250px;
+       }
+       #txtContactNumber
+       {
+           width: 250px;
+       }
+       #txtXcenter
+       {
+           width: 250px;
+       }
+       #txtCampStudentUID
+       {
+           width: 250px;
+       }
+    }
+    
+   /*
+   /*#txtCampName
+   {
+       width: 240px;
+   }*/
+   /*
+   #txtCampStudentName
+   {
+       width: 240px;
+   }
+   
+   #txtCampSchoolName
+   {
+       width: 240px;
+   }
+   
+   #txtXcenter
+   {
+       width: 240px;
+   }
+   */
+    #tdlblsubjectname
+    {
+       width: 80%;
+    }
+
+@media only screen and (min-width:550px) and (max-width:650px) 
+{
+  
+}
+
+
+@media only screen and (min-width:300px) and (max-width:400px) 
+{
+ /*EnterContact Page Start*/   
+   #txtUserName
+   {
+      width: 250px;
+      border: 1px solid gray;
+   }
+   
+   #tableCamapignDetail1
+   {
+        margin-top: -6%;
+   }
+   
+   #txtMobileNo
+   {
+      width: 250px;
+      border: 1px solid gray;
+   }
+   
+   #btnpink
+   {
+       padding-right: 43%;
+       padding-left  : 43%;
+   }
+   
+   #divbookAdmissionProceedButton
+   {
+       display: inline;
+   }
+      
+   #txtFirstname
+   {
+       width:215px;
+       border: 1px solid gray;
+   }
+      
+   #txtMiddleName
+   {
+       width:215px;
+       border: 1px solid gray;
+   }  
+   
+   #txtLastName
+   {
+       width:215px;
+       border: 1px solid gray;
+   }  
+   
+   #txtMonthYear
+   {
+       width:186px;
+   }
+   #txtDOB
+   {
+        border: 1px solid gray;
+   }
+   #divContactSource
+   {
+        border: 1px solid gray;
+   }
+     #divGender
+   {
+        border: 1px solid gray;
+   }
+   #txtEmailId
+   {
+       width:215px;
+       border: 1px solid gray;
+   }  
+   
+   #txtHandPhone1
+   {
+       width:215px;
+       border: 1px solid gray;
+   }
+   
+   #txtAddress1
+   {
+       width:215px;
+       border: 1px solid gray;
+   }  
+   
+   #txtAddress2
+   {
+       width:215px;
+       border: 1px solid gray;
+   }  
+   
+   #txtStreet
+   {
+       width:215px;
+       border: 1px solid gray;
+   }
+   
+   /*EnterContact Page End*/  
+   
+   /*Campaing Page Start*/
+       #tdcampaigndata
+        {
+            width: 99%;
+        } 
+        
+        #TCampaign
+        {
+            width: 97%;
+        }
+        
+        #tdlblsubjectname
+        {
+            width: 104%;
+        }
+        
+        #divadvancesearchbody
+        {
+            padding-left: 2px;
+        }
+       #txtCampMobileNo
+       {
+           width: 215px;
+       }
+       
+       #txtProbability 
+       {
+            width: 215px;
+            border: 1px solid gray;
+       }
+     
+       #txtClosuredate1
+       {
+            width: 186px;
+           
+       }
+       
+       #txtBookAdmissionClosureDate1
+       {
+            width: 184px;
+           
+       }
+       #txtClosuredate
+       {
+            border: 1px solid gray;
+       }
+       
+    #divopporacadYear
+    {
+         border: 1px solid gray;
+    }
+    #divopporDivision
+    {
+         border: 1px solid gray;
+    }
+    #divopporCenter
+    {
+         border: 1px solid gray;
+    }
+    #divopporSalesStage
+    {
+         border: 1px solid gray;
+    }
+    #divopporProduct
+    {
+         border: 1px solid gray;
+    }
+      
+      #divleadAcadYear 
+      {
+           border: 1px solid gray;
+      }
+      
+        #divLeadDivision 
+      {
+           border: 1px solid gray;
+      }
+      
+        #divLeadCenter 
+      {
+           border: 1px solid gray;
+      }
+      
+        #divadmissionacadyear 
+      {
+           border: 1px solid gray;
+      }
+      
+        #divadmissiondivision 
+      {
+           border: 1px solid gray;
+      }
+        #divadmissionCenter 
+      {
+           border: 1px solid gray;
+      }
+        #divadmissionsalesstage 
+      {
+           border: 1px solid gray;
+      }
+        #txtBookAdmissionClosureDate 
+      {
+           border: 1px solid gray;
+      }
+       #divadmissionPayPlan 
+      {
+           border: 1px solid gray;
+      }
+       #txtInteractedWith 
+       {
+            width: 225px;
+            border: 1px solid gray;
+       }
+       
+       #txtFeedBack 
+       {
+            width: 225px;
+            border: 1px solid gray;
+       }
+        
+        #txtFollowupDate1
+        {
+            width: 186px;
+        }
+        
+         #txtFollowupDate 
+       {
+           
+            border: 1px solid gray;
+       }
+       
+         #divfollowupInteractedrel 
+      {
+           border: 1px solid gray;
+      }
+        #divfollowupstatus 
+      {
+           border: 1px solid gray;
+      }
+        
+         /*Advance search div Start*/ 
+       /*
+       /*#txtCampName
+       {
+           width: 221px;
+       }*/       
+       /*#txtCampStudentName
+       {
+           width: 221px;
+            border: 1px solid gray;
+       }
+   
+       #txtCampSchoolName
+       {
+           width: 221px;
+            border: 1px solid gray;
+       }
+   
+       #txtXcenter
+       {
+           width: 221px;
+            border: 1px solid gray;
+       }
+        #txtBoard
+       {
+           width: 221px;
+            border: 1px solid gray;
+       }
+       */
+        #divadvadmission 
+      {
+           border: 1px solid gray;
+      }
+      
+      #divstatblue
+      {
+          margin-right: -6%;
+          margin-left: -6%; 
+          margin-top: 2px;
+          margin-bottom: 3px;
+      }
+      
+        #divstatpurple
+      {
+          margin-right: -6%;
+          margin-left: -6%; 
+          margin-top: 2px;
+          margin-bottom: 3px;
+      }
+      
+       #divstatpink2
+      {
+          margin-right: -6%;
+          margin-left: -6%; 
+          margin-top: 2px;
+          margin-bottom: 3px;
+      }
+      
+        #divstatmint
+      {
+          margin-right: -6%;
+          margin-left: -6%; 
+          margin-top: 2px;
+          margin-bottom: 3px;
+      }
+      
+       #divdashboardstatpurple
+      {
+         
+          margin-bottom: 3px;
+      }
+   /*Campaing Page End*/
+}
+
+@media only screen and (min-width:400px) and (max-width:450px)
+{
+    /*EnterContact Page Start*/   
+   #txtUserName
+   {
+      width: 250px;
+   }
+   
+   #txtMobileNo
+   {
+      width: 250px;
+   }
+   
+
+   #txtFirstname
+   {
+      width: 238px;
+   }
+      
+   #txtMiddleName
+   {
+      width: 238px;
+   }  
+   
+   #txtLastName
+   {
+       width: 238px;
+   }   
+   
+   #txtMonthYear
+   {
+      width: 206px;
+   }
+   
+   #txtEmailId
+   {
+       width: 238px;
+   }  
+   
+   #txtHandPhone1
+   {
+       width: 238px;
+   }
+   
+   #txtAddress1
+   {
+      width: 238px;
+   }  
+   
+   #txtAddress2
+   {
+       width: 238px;
+   }  
+   
+   #txtStreet
+   {
+      width: 238px;
+   }
+
+   /*EnterContact Page End*/ 
+   
+   /*Campaing Page Start*/
+       #txtCampMobileNo
+       {
+           width: 238px;
+       }
+       
+       #txtProbability 
+       {
+            width: 238px;
+       }
+       
+       #txtClosuredate1
+       {
+            width: 206px;
+       }
+       
+       #txtInteractedWith 
+       {
+            width: 238px;
+       }
+       
+       #txtFeedBack 
+       {
+            width: 238px;
+       }
+        
+        #txtFollowupDate1
+        {
+            width: 206px;
+        }
+        
+         /*Advance search div Start*/ 
+        /*
+       /*#txtCampName
+       {
+           width: 238px;
+       }*/
+       /*
+       #txtCampStudentName
+       {
+           width: 238px;
+       }
+   
+       #txtCampSchoolName
+       {
+           width: 238px;
+       }
+   
+       #txtXcenter
+       {
+           width: 238px;
+       }/*
+   /*Campaing Page End*/
+   
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px)
+{
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+}
+
+
+@media only screen and (min-width:480px) and (max-width:639px)
+{
+}
+
+
+@media only screen and (max-width:319px)
+{
+    
+}

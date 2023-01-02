@@ -1,0 +1,550 @@
+﻿
+
+.form-control {
+    display: block;
+    width: 59%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+}
+
+
+.icon-menu
+{
+    padding-top: 5px;
+}
+
+#btnSearch
+{
+    padding-left:25%;
+}
+
+#btnClear
+{
+    padding-left:30%;
+}
+
+
+.crmHeader {
+    padding-left: 15px;
+    color: White;
+    padding-top: 9px;
+    font-size: 16px;
+}
+
+.dd1 {
+    position: absolute;
+    left: 1.3%;
+    background: #82e3d9;
+    width: 60.9%;
+    top: 0;
+}
+
+.dd2
+{
+    position: absolute;
+    left: 20%;
+    background: #82e3d9;
+    width: 60.9%;
+    top: 0;
+}
+
+.dd3
+{
+    position: absolute;
+    left: 37.7%;
+    background: #82e3d9;
+    width: 60.9%;
+    top: 0;
+}
+
+.body
+{
+    width: 100%;
+    background-image: url("background_browser.jpg");
+    background-position: center center;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.EC1 {
+    position: absolute;
+    width: 32%;
+    background: #82e3d9;
+    top: 12.2%;
+    left: 1.4%;
+}
+
+.EC2 {
+    position: absolute;
+    left: 32.2%;
+    background: #82e3d9;
+    width: 54.9%;
+    top: 12.2%;
+}
+
+.EC3 {
+    position: absolute;
+    left: 87%;
+    background: #82e3d9;
+    width: 11.5%;
+    top: 12.2%;
+}
+
+.TH1 {
+    position: absolute;
+    width: 26%;
+    background: #82e3d9;
+    top: 10.3%;
+    left: 1.5%;
+   
+}
+
+
+.TH2 {
+    position: absolute;
+    left: 27.2%;
+    background: #82e3d9;
+    width: 59.9%;
+    top: 10.3%;
+}
+
+.TH3 {
+    position: absolute;
+    left: 74%;
+    background: #82e3d9;
+    width: 24.5%;
+    top: 10.3%;
+}
+
+
+.CH1 {
+    position: absolute;
+    width: 26%;
+    background: #82e3d9;
+    top: 10.3%;
+    left: 1.5%;
+}
+
+
+.CH2 {
+    position: absolute;
+    left: 25.2%;
+    background: #82e3d9;
+    width: 59.9%;
+    top: 10.3%;
+}
+
+.CH3 {
+    position: absolute;
+    left: 69%;
+    background: #82e3d9;
+    width: 29.5%;
+    top: 10.3%;
+}
+
+.MH1 {
+    position: absolute;
+    width: 27%;
+    background: #82e3d9;
+    top: 10.3%;
+    left: 1.5%;
+}
+
+
+.MH2 {
+    position: absolute;
+    left: 28.2%;
+    background: #82e3d9;
+    width: 59.9%;
+    top: 10.3%;
+}
+
+.MH3 {
+    position: absolute;
+    left: 75%;
+    background: #82e3d9;
+    width: 23.5%;
+    top: 10.3%;
+}
+
+.attend1
+{
+   position: absolute;
+   background: #82e3d9;
+   left: 1.3%;
+   width:83%;
+}
+
+.attend2
+{
+   position: absolute;
+   background: #82e3d9;
+   width:20%;
+   left: 37.8%;
+}
+
+.attend3
+{
+   position: absolute;
+   background: #82e3d9;
+   width:14.9%;
+   left:83.8%;
+}
+
+
+
+
+.testSh1
+{
+   position: absolute;
+   background: #82e3d9;
+   left: 1.3%;
+   width:14%;
+}
+
+.testSh2
+{
+   position: absolute;
+   background: #82e3d9;
+   width:76.8%;
+   left: 12.9%;
+}
+
+.testSh3
+{
+   position: absolute;
+   background: #82e3d9;
+   width:5.7%;
+   left:89%;
+}
+
+.testSh4
+{
+   position: absolute;
+  background: #82e3d9;
+   width:4.1%;
+   left:94.5%;
+}
+
+.test1
+{
+   position: absolute;
+    background: #82e3d9;
+   left: 1.3%;
+   width:83%;
+}
+
+.test2
+{
+   position: absolute;
+   background: #82e3d9;
+   width:72%;
+   left: 20.5%;
+}
+
+.test3
+{
+   position: absolute;
+   background: #82e3d9;
+  width: 6.9%;
+    left: 91.8%;
+}
+
+.test4
+{
+   position: absolute;
+   background: #82e3d9;
+   width:14.9%;
+   left:83.8%;
+}
+
+
+
+@media only screen and (min-width:520px) and (max-width:720px) 
+{
+  .form-control {
+    display: block;
+    width: 43%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+}
+    
+  .EC1 {
+    position: absolute;
+    width: 33%;
+    background: #82e3d9;
+    top:23%;
+    left: 1.8%;
+}
+
+.EC2 {
+     position: absolute;
+    left: 34.2%;
+    background: #82e3d9;
+     top:23%;
+    width: 53.9%;
+   
+}
+
+
+.EC3 {
+    position: absolute;
+    left: 85%;
+    background: #82e3d9;
+    width: 13%;
+     top:23%;
+  
+}
+    
+.TH1 {
+    position: absolute;
+    width: 33%;
+    background: #82e3d9;
+    top: 6.6%;
+    left: 1.8%;
+}
+
+
+.TH2 {
+    position: absolute;
+    left: 28.2%;
+    background: #82e3d9;
+    width: 58.9%;
+    top: 6.6%;
+}
+
+
+.TH3 {
+    position: absolute;
+    left: 75%;
+    background: #82e3d9;
+    width: 23.2%;
+    top: 6.6%;
+}
+
+.CH1 {
+    position: absolute;
+    width: 33%;
+    background: #82e3d9;
+    top: 6.6%;
+    left: 1.8%;
+}
+
+
+.CH2 {
+    position: absolute;
+    left: 26.4%;
+    background: #82e3d9;
+    width: 58.9%;
+    top: 6.6%;
+}
+
+
+.CH3 {
+    position: absolute;
+    left: 69%;
+    background: #82e3d9;
+    width: 29%;
+    top: 6.6%;
+}
+    
+    .MH1 {
+    position: absolute;
+    width: 28%;
+    background: #82e3d9;
+    top: 6.6%;
+    left: 1.8%;
+}
+
+
+.MH2 {
+    position: absolute;
+    left: 28.2%;
+    background: #82e3d9;
+    width: 48.9%;
+    top: 6.6%;
+}
+
+
+.MH3 {
+    position: absolute;
+    left: 75%;
+    background: #82e3d9;
+    width: 23.1%;
+    top: 6.6%;
+}
+    
+   .abc
+   {
+       padding-left:20px;
+   }
+   
+   
+    .th2 {
+    position: absolute;
+    left: 38.2%;
+    width: 58.5%;
+    background: #82e3d9;
+    padding-top: 35px;
+    }
+    
+    .th1 {
+    position: absolute;
+    width: 80%;
+    background: #82e3d9;
+    top: 0;
+    left: 3.3%;
+    }
+
+        .attend1 {
+            position: absolute;
+            background: #82e3d9;
+            left: 3.2%;
+            width: 83%;
+        }
+
+        .attend2
+        {
+           position: absolute;
+           background: #82e3d9;
+           width:20%;
+           left: 38.2%;
+        }
+
+        .attend3 {
+            position: absolute;
+            background: #82e3d9;
+            width: 14%;
+            left: 82.8%;
+        }
+
+
+        .test1
+        {
+           position: absolute;
+            background: #82e3d9;
+           left: 2.8%;
+           width:83%;
+        }
+
+        .test2
+        {
+           position: absolute;
+            background: #82e3d9;
+           width: 71%;
+           left: 21.3%;
+        }
+
+        .test3 {
+            position: absolute;
+            background: #82e3d9;
+            width: 9.9%;
+            left: 86.8%;
+        }
+
+        .test4
+        {
+           position: absolute;
+           background: #82e3d9;
+           width:12.9%;
+           left:83.8%;
+        }
+        
+        .testSh1
+        {
+           position: absolute;
+           background: #82e3d9;
+           left: 3.2%;
+           width:16%;
+        }
+
+        .testSh2
+        {
+           position: absolute;
+           background: #82e3d9;
+           width:76.8%;
+           left: 16.8%;
+        }
+
+        .testSh3
+        {
+           position: absolute;
+           background: #82e3d9;
+           width:5.7%;
+           left:79%;
+        }
+
+        .testSh4
+        {
+           position: absolute;
+          background: #82e3d9;
+           width:7.1%;
+           left:89.5%;
+        }
+
+}
+
+
+@media only screen and (min-width:300px) and (max-width:400px) 
+{
+ .crmHeader {
+    padding-left: 15px;
+    color: White;
+    padding-top: 10px;
+    font-size: 14px;
+}
+    
+    
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1024px)
+{
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+}
+
+
+@media only screen and (min-width:480px) and (max-width:639px)
+{
+}
+
+
+@media only screen and (max-width:319px)
+{
+    .th2
+    {
+        position: absolute;
+        width: 80%;
+        background: #82e3d9;
+        top: 0;
+        left: 5.3%;
+    }
+
+    .th1
+    {
+        position: absolute;
+        left: 65.3%;
+        width: 28.8%;
+        background: #82e3d9;
+    }
+
+}

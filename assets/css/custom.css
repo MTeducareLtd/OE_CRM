@@ -1,0 +1,38 @@
+/* here you can put your own css to customize and override the theme */
+.responsive-table thead th{
+	background-color: #faf8Dc!important;
+	border:1px solid #D27e4f!important;
+	color: #1d1d1d!important;
+	border-bottom-color: transparent !important;
+}
+
+.responsive-table tbody td{
+    border:1px solid #D27e4f!important;
+	border-bottom-color: transparent !important;
+	color:#505050;
+}
+
+.responsive-table tbody .last td {
+	border-bottom: 1px !important;
+}
+.responsive-table tbody tr{
+  border:1px solid #D27e4f!important;
+}
+.text-center{text-align:center !important;}
+.date_block{font-size: 19px;margin-left: 10px;}
+.date_block label{font-size:12px;}
+.tablebordernone{
+
+ border-bottom-color: transparent!important;
+
+}
+
+.tabbable-line > .tab-content
+{
+background-color:#e0e0e0!important;
+}
+
+.tabbable-line > .tab-content
+{
+padding: 0px 0!important; */
+}
